@@ -1,0 +1,399 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color:#f48fb1;
+}
+
+.container .logo img{
+	width: 100px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.logo p{
+	text-align: right;
+	font-size: 20px;
+	font-weight: lighter;
+	position: relative;
+	top: -70px;
+}
+
+section.banner{
+	width: 100%;
+	height: 750px;
+	background: #edd3dc; 
+}
+
+.bg{
+	position: relative;
+	right: 0;
+}
+
+.bg video{
+	order: 2;
+	width: 85%;
+	padding: 0 20px;
+	height: 55vh;
+	min-height: 700px;
+	position: absolute;
+	left: 440px;
+	padding: 1%;
+}
+
+.texto p{
+	font-size: 28px;
+	width: 450px;
+	height: 700px;
+	order: 1;
+	padding-top: 2%;
+}
+
+section.momentos h2{
+	text-align: center;
+	width: 350px;
+	margin: 50px auto;
+	font-size: 35px; 
+	position: relative;
+	z-index: 2;
+	background: white;
+	font-style: italic;
+	font-weight: bold;
+}
+
+section.momentos .line{
+	border-bottom: 3px solid black;
+	position: relative;
+	top: 75px;
+	z-index: 1;
+}
+
+.flex-mosaico{
+	display: flex;
+	vertical-align: middle;
+	margin-left: 20%;
+	margin-top: 3%;
+	width: 100%;
+	background-color: #fce8ef;
+	max-width: 800px;
+}
+
+.item1-mosaico{
+	background-position: center;
+	background-size: cover;
+	margin: 0 2%;
+}
+
+.item1-mosaico img{
+	max-height: 500px;
+	width: 300px;
+}
+
+.item2-mosaico{
+	width: 37.95%;
+	height: 100%;
+
+}
+
+.item2-mosaico p{
+	margin-top: 50px;
+	text-align: center;
+	width: 300px;
+	margin-left: 75px;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+section.malucos h2{
+	text-align: center;
+	width: 350px;
+	font-size: 35px;
+	margin: 45px auto;
+	font-style: italic;
+	position: relative;
+	z-index: 2;
+	background: white;
+}
+
+section.malucos .line{
+	border-bottom: 3px solid black;
+	position: relative;
+	top: 70px;
+	z-index: 1;
+}
+
+section.malucos p{
+	font-size: 22px;
+	text-align: center;
+	margin: 0 2%;
+}
+
+section.malucos p i{
+	margin: 0 1%;
+}
+
+section.malucos .videos-comicos{
+	float: left;
+	width: 33.3%;
+	position: relative;
+	border: 10px solid white;
+	padding-top: calc(33.33% * 0.6);
+}
+
+.videos-comicos video{
+	width:100%;
+	max-height: 500px;
+	position: relative;
+	top: -205px;
+}
+
+section.declaracoes{
+	position: relative;
+	top: -200px;
+}
+
+section.declaracoes h2{
+	text-align: center;
+	width: 300px;
+	font-size: 35px;
+	margin: 45px auto;
+	position: relative;
+	z-index: 2;
+	background: white;
+	font-style: italic;
+}
+
+section.declaracoes .line{
+	border-bottom: 3px solid black;
+	position: relative;
+	top: 70px;
+	z-index: 1;
+}
+
+section.declaracoes p{
+	font-size: 22px;
+	text-align: center;
+	margin: 0 2%;
+}
+
+section.declaracoes p i{
+	margin: 0 1%;
+	color: black;
+}
+
+.box-videos{
+	float: left;
+	width: 50%;
+	border: 10px solid white;
+}
+
+.box-videos video{
+	max-height: 400px;
+	max-width: 500px;
+	margin: 25px 50px;
+
+}
+
+div#myDiv{
+	border: 0;
+	position: relative;
+	top: 7px;
+	left: 50px;
+}
+
+section.mensagem{
+	position: relative;
+	top: -200px;
+}
+
+section.mensagem h2{
+	text-align: center;
+	width: 300px;
+	font-size: 35px;
+	margin: 0 auto;
+	position: relative;
+	z-index: -1;
+	background: white;
+	font-style: italic;
+}
+
+section.mensagem .line{
+	border-bottom: 3px solid black;
+	position: relative;
+	top: 372px;
+	z-index: -2;
+}
+
+section.mensagem p{
+	font-size: 23px;
+	text-align: center;
+	margin: 40px 2%;
+}
+
+section.mensagem .nosso{
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 390px;
+}
+
+.nosso video{
+	width: 520px;
+}
+
+footer{
+	background: pink;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: -90px;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+footer .btn{
+	float: right;
+	width: 200px;
+	height: 40px;
+	background: #f48fb1;
+	border-radius: 10px;
+	position: relative;
+	top: -35px;
+	text-align: center;
+	cursor: pointer;
+	color: black;
+}
+
+.ultimo{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 1000px;
+	z-index: 999;
+	background-color: rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 700px){
+
+	.container{
+		width: 100%;
+	}
+
+	header.logo p{
+		font-size: 1px;
+	}
+
+	section.banner{
+		height: 1400px;
+	}
+
+	.primeiro{
+		width: 100%;
+		float: none;
+		padding: 0 4%;
+		margin-top: 10px;
+		display: inline-block;
+	}
+
+	.texto{
+		display: inline-block;
+		float: left;
+		width: 100%;
+		font-weight: bold;
+		font-size: 18px;
+		padding-left: 70px;
+	}
+
+	section.banner .container{
+		text-align: center;
+	}
+
+	.bg{
+	width: 100%;
+	position: absolute;
+	right: 65%;
+	top: 750px;
+	}
+
+	.flex-mosaico{
+		margin-left: 0;
+		width:100%;
+	}
+
+	.item1-mosaico img{
+		width: 270px;
+		position: relative;
+		top: 50px;
+	}
+
+	.item2-mosaico{
+		margin-left: -50px;
+		max-width: 200px;
+	}
+
+	.item2-mosaico p{
+		width: 250px;
+		font-size: 17px;
+	}
+
+	section.malucos .videos-comicos{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 2%;
+	}
+
+	section.malucos .um{
+		position: relative;
+		top: 150px;
+	}
+
+	section.malucos .dois{
+		height: 500px;
+	}
+
+	section.declaracoes .box-videos{
+		width: 100%;
+		display: inline-block;
+	}
+
+	div#myDiv{
+		left: 10px;
+	}
+
+	section.mensagem .line{
+	 top: 720px;
+	}
+
+	section.mensagem .nosso video{
+		position: relative;
+		right: 60%;
+	}
+
+}
+
+
+
+
