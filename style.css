@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans';
 }
 
 html,body{
@@ -11,7 +11,7 @@ html,body{
 
 .container{
 	max-width: 1280px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 
 .clear{
@@ -44,19 +44,13 @@ section.banner{
 	background: #edd3dc; 
 }
 
-.bg{
-	position: relative;
-	right: 0;
-}
-
-.bg video{
-	order: 2;
-	width: 85%;
+section.banner video{
+	width: 500px;
 	padding: 0 20px;
 	height: 55vh;
 	min-height: 700px;
-	position: absolute;
-	left: 440px;
+	position: relative;
+	float: right;
 	padding: 1%;
 }
 
@@ -249,16 +243,13 @@ section.mensagem p{
 	margin: 40px 2%;
 }
 
-section.mensagem .nosso{
-	width: 100%;
+section.mensagem video{
+	width: 500px;
 	position: relative;
 	top: 0;
-	left: 390px;
+	margin-left: 30%;
 }
 
-.nosso video{
-	width: 520px;
-}
 
 footer{
 	background: pink;
@@ -302,9 +293,25 @@ footer .btn{
 		width: 100%;
 	}
 
-	header.logo p{
-		font-size: 1px;
-	}
+	header{
+	width: 100%;
+	height: 80px;
+	background-color:#f48fb1;
+}
+
+	.container .logo img{
+	width: 80px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+	.logo p{
+	text-align: right;
+	font-size: 13px;
+	font-weight: lighter;
+	margin-right: 2%;
+
+}
 
 	section.banner{
 		height: 1400px;
@@ -318,24 +325,28 @@ footer .btn{
 		display: inline-block;
 	}
 
-	.texto{
-		display: inline-block;
-		float: left;
-		width: 100%;
-		font-weight: bold;
-		font-size: 18px;
-		padding-left: 70px;
-	}
+	
 
-	section.banner .container{
+	.texto p{
+	font-size: 17px;
+	width: 300px;
+	height: 700px;
+	order: 1;
+	padding-top: 2%;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+	section.banner {
 		text-align: center;
+		height: 250%;
 	}
 
 	.bg{
 	width: 100%;
 	position: absolute;
-	right: 65%;
-	top: 750px;
+	right: 100%;
+	top: 460px;
 	}
 
 	.flex-mosaico{
